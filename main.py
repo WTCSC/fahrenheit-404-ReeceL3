@@ -35,7 +35,7 @@ def convert_temperature():
 
         repeat = input("Would you like to convert another temperature? (yes/no): ").strip().lower()
         if repeat not in ["yes", "y"]:
-            print("\n Thank you for using the Temperature Converter I hope that you use me again some other time")
+            print("\n Thank you for using the Temperature Converter I hope that you need to convert temps again")
             break
 
 convert_temperature()
