@@ -18,7 +18,7 @@ def convert_temperature():
         temp_input = input("Enter the numeric value of the temperature you want to convert: ").strip()
 
         if temp_input.lower() == "exit":
-            break
+            exit
 
         try:
             temp_value = float(temp_input)
@@ -36,6 +36,6 @@ def convert_temperature():
         repeat = input("Would you like to convert another temperature? (yes/no): ").strip().lower()
         if repeat not in ["yes", "y"]:
             print("\n Thank you for using the Temperature Converter I hope that you need to convert temps again")
-            break
+            exit
 
 convert_temperature()
