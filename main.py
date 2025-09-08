@@ -23,7 +23,7 @@ def convert_temperature():
         try:
             temp_value = float(temp_input)
         except ValueError:
-            print("Invalid temperature value. Please enter a number.\n")
+            temp_value = float(input("Invalid temperature value. Please enter a number. \n"))
             continue
 
         if starting_temp_unit == "F":
